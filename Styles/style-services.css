@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    font-family: "manrope", sans-serif;
+    background: blac;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(IMG-VIDEOS/IMG/Dev.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex; 
+        align-items: center;
+}
+
+
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 5%;
+    width: 100px;
+    height: 30px;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 5%;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: aquamarine;
+}
+
+
+.menu-icon {
+    width: 25px;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icon {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-conteiner {
+    color: white;
+}
+
+.header-conteiner h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.header-conteiner p {
+    text-align: center;
+    margin: 5%;
+
+    
+}
+
+.img {
+    width: 500px;
+    margin-right: 15px;
+    border-radius: 2%;
+
+
+}
+
+/* Section */ 
+
+.div-services {
+    display: flex;
+    margin: 5%;
+    border-radius: 2%;
+    border-color: #24303c;
+    
+    
+}
+
+#Services {
+    width: 40px;
+    height: 40px;
+     
+}
+
+.Sub-div {
+    text-align: center;
+    margin: 1%;
+    border: solid;
+    border-radius: 4%;
+    padding: 1%;
+    width: 100%;
+    background: black;
+}
+
+.Sub-div p {
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.Sub-div h3{
+    color: aliceblue;
+}
+
+/* Section 2*/ 
+
+.Section-2 {
+    display: flex;
+    
+}
+
+#Web-man {
+    width: 450px;
+    height: 550px;
+}
+
+.Sub-div2 {
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+}
+
+.Sub-div3 {
+    margin: 5%;
+}
+
+.Sub-div3-2 {
+    margin: 5%;
+    border: solid;
+    border-radius: 4%;
+    text-align: center;
+    padding: 3%;
+
+}
+
+#icon{
+    width: 100px;
+    height: 100px;
+}
+
+/* Section 3*/ 
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-image:linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(IMG-VIDEOS/IMG/Server.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+.section-3  h2{
+    margin-top: 2%;
+    color: azure;
+    text-align: center;
+
+}
+.section-3  p{
+    color: aqua;
+    text-align: center;
+}
+
+#Img-ping {
+    width: 150px;
+    height: 150px;
+    margin-left: 30%;
+}
+
+
+/* Foother*/ 
+footer {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(IMG-VIDEOS/IMG/server-room-1376349_1280.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover ;
+        min-height: 25vh;
+        color: white;
+        background-color: rgb(42, 40, 40);
+        
+        
+    
+     
+}
+
+.footer-container {
+    padding: 50px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer p{
+    padding: 8px;
+}
+
+.Quick-Links li{
+    padding: 5px;
+}
+
+.Learn-more li{
+    padding: 5px;
+}
+
+.footer form{
+    padding-bottom: 20px;  
+}
+.footer form input {
+    border-radius: 1px;
+    background: #24303c;
+    padding: 5px;
+    border: 1px solid #1f53c5;
+}
+
+.footer form button{
+    background: #1f53c5;
+    border: none;
+    padding: 5px;
+    color: whitesmoke;
+    
+
+}
+.footer img {
+    margin: 2%;
+}
+
+.footer {
+    width: 25%;
+    padding: 0 15px;
+    text-align: center;
+
+}
+
+#Copyright {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#redes { 
+    width: 30px;
+    background-color: rgb(89, 28, 28);
+
+}
