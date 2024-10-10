@@ -250,6 +250,20 @@ footer {
     padding: 5px;
 }
 
+.Quick-Links li a {
+    color: white;
+}
+.Quick-Links li a:hover {
+    color: aquamarine;
+    
+}
+.Learn-more li a{
+    color: white;
+}
+.Learn-more li a:hover{
+    color: aquamarine;
+}
+
 .footer form{
     padding-bottom: 20px;  
 }

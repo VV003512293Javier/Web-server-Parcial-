@@ -251,9 +251,23 @@ footer {
 .Quick-Links li{
     padding: 5px;
 }
+.Quick-Links li a {
+    color: white;
+}
+.Quick-Links li a:hover {
+    color: aquamarine;
+    
+}
 
 .Learn-more li{
     padding: 5px;
+}
+
+.Learn-more li a{
+    color: white;
+}
+.Learn-more li a:hover{
+    color: aquamarine;
 }
 
 .footer form{

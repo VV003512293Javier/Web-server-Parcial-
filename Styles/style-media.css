@@ -16,11 +16,11 @@ header {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(IMG-VIDEOS/Dev.jpg);
+        url(/Styles/IMG-VIDEOS/IMG/Dev.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 60vh;
+        min-height: 70vh;
         display: flex; 
         align-items: center;
 }
@@ -92,11 +92,123 @@ header {
 
     
 }
-.video {
-    width: 500px;
-    margin-right: 15px;
+
+.video1 {
+    width: 100%;
 }
 
+.video2 {
+    width: 100%;
+    align-items: center;
+    
+
+}
+
+/* SECTION 01 */
+
+#icon{
+    width: 40px;
+    height: 40px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.Section1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.section1-1 {
+    width: 100%;
+    
+    
+}
+
+.sub-section1 {
+    margin: 2%;
+    border: solid;
+    border-radius: 2%;
+    background-color: black;
+
+}
+
+.sub-section1 h3{
+    margin: 2%;
+    text-align: center;
+    color: white;
+}
+.sub-section1 p{
+    margin: 2%;
+    text-align: center;
+    color: white;
+    
+}
+
+.sub-section2 {
+    margin: 1%;
+    border: solid;
+    border-radius: 1%;  
+    width: 100%;
+    background-color: black;
+}
+
+.sub-section2 h3{
+    margin: 2%;
+    text-align: center;
+    color: white;
+}
+.sub-section2 p{
+    margin: 2%;
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+
+/*   PRE-FOOTER        */ 
+
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-image:linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(IMG-VIDEOS/IMG/Server.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+
+}
+
+.section-3  h2{
+    margin-top: 2%;
+    color: azure;
+    text-align: center;
+
+}
+.section-3  p{
+    color: aqua;
+    text-align: center;
+}
+
+#Img-ping {
+    width: 150px;
+    height: 150px;
+    margin-left: 30%;
+}
 
 
 
@@ -115,7 +227,7 @@ footer {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(IMG-VIDEOS/server-room-1376349_1280.jpg);
+        url(/Styles/IMG-VIDEOS/IMG/server-room-1376349_1280.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -138,6 +250,19 @@ footer {
 
 .Quick-Links li{
     padding: 5px;
+}
+.Quick-Links li a {
+    color: white;
+}
+.Quick-Links li a:hover {
+    color: aquamarine;
+    
+}
+.Learn-more li a{
+    color: white;
+}
+.Learn-more li a:hover{
+    color: aquamarine;
 }
 
 .Learn-more li{

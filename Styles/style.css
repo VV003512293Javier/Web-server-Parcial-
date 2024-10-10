@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 body {
-    font-family: "manrope", sans-serif
+    font-family: "manrope", sans-serif;
+    background-color: black;
 }
 
 * {
@@ -334,6 +335,9 @@ section p  {
     height: 500px;
 }
 
+
+
+/*  FOOTER */
 footer {
     background-image:linear-gradient(
         rgba(0,0,0,0.7),
@@ -367,8 +371,23 @@ footer {
     padding: 5px;
 }
 
+.Quick-Links li a {
+    color: white;
+}
+.Quick-Links li a:hover {
+    color: aquamarine;
+    
+}
+
 .Learn-more li{
     padding: 5px;
+}
+
+.Learn-more li a{
+    color: white;
+}
+.Learn-more li a:hover{
+    color: aquamarine;
 }
 
 .footer form{
